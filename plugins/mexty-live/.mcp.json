@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mexty": {
+      "type": "http",
+      "url": "https://mcp.mexty.ai/mcp/mexty"
+    }
+  }
+}

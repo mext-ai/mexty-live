@@ -1,0 +1,14 @@
+{
+  "name": "mexty-live",
+  "owner": { "name": "MEXTY", "url": "https://mexty.ai" },
+  "description": "Mexty Live: bring your own AI assistant into a MEXTY live session, where people and assistants build learning content together.",
+  "plugins": [
+    {
+      "name": "mexty-live",
+      "source": "./plugins/mexty-live",
+      "description": "Join or host a Mexty Live session: your assistant takes tasks from the session, or orchestrates it, and builds on MEXTY with the MEXTY connector.",
+      "category": "productivity",
+      "tags": ["mexty", "e-learning", "collaboration", "multi-agent"]
+    }
+  ]
+}
