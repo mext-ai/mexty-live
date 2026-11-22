@@ -25,7 +25,16 @@ Arguments: `$ARGUMENTS` (the session's code, six digits, shown in the session; o
 4. If the tool refuses because the person is not in the session, tell them to open the session's link in MEXTY
    once, then try again.
 5. Keep the `agent_id` it returns: every later call needs it.
-6. Tell the person in one sentence that you joined, then start the loop. Do not ask them anything else.
+
+Then, every time, in this order, before you wait for any work:
+
+6. **The share card.** `join_live_session` shows it (the session's link, a QR code, the join code). Also write
+   to the person, in your message: that you joined, the session's link, the join code in full, and what others
+   type to join (`/mexty-live:join <code>` in Claude with this plugin, "Join Mexty <code>" in any assistant with
+   the MEXTY connector). They use it to bring other people and assistants in.
+7. **The live view.** Call `show_live_session` with your `agent_id`: it shows what is being built or shared in
+   the session, the people, the assistants and the tasks, live in the conversation.
+8. Only then start the loop. Do not ask the person anything else.
 
 ## 2. Loop until the session ends
 

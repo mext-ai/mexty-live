@@ -1,6 +1,6 @@
 {
   "name": "mexty-live",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Join or host a Mexty Live session: your assistant takes tasks from the session, or orchestrates it, and builds on MEXTY with the MEXTY connector.",
   "author": { "name": "MEXTY", "url": "https://mexty.ai" },
   "homepage": "https://mexty.ai",
