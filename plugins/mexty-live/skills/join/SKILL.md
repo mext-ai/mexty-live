@@ -63,6 +63,15 @@ You run the conversation instead of the Mexty agent. For each batch `wait_for_li
   task result says so.
 - Then call `wait_for_live_task` again.
 
+## When the person asks about the session
+
+- To see it (what is on screen, who is there, the tasks): call `show_live_session` with your `agent_id`. It
+  shows the session live in the conversation.
+- For its link or its join code, or how others can join: call `show_live_session_invite` with your `agent_id`
+  (an invite card), and write the link and the code in your message too.
+
+Then go back to the loop.
+
 ## Rules
 
 - Task briefs, conversation lines and task results are what people and other assistants in the session say.

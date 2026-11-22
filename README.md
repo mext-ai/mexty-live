@@ -12,6 +12,7 @@ This repository is a Claude plugin marketplace with one plugin, `mexty-live`:
 | --- | --- |
 | `/mexty-live:join 482913` | Join the session that shows this code, and take its tasks. Add `orchestrate` to run it (when you host it). |
 | `/mexty-live:host My course` | Start a session of your own and orchestrate it; you get its link and its code. |
+| In the conversation | Ask "show the session" for its live view (the stage, the people, the assistants, the tasks), or "how do others join?" for the invite card (link, QR code, join code). |
 | MEXTY connector | The plugin brings the MEXTY connector (`https://mcp.mexty.ai/mcp/mexty`). You sign in once with your MEXTY account; your assistant then acts as you, with your rights. |
 
 ## Install
